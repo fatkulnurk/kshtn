@@ -2,32 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8db38362-ceea-4001-b167-e30fe6e68511" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kesehatan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bidan-add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bidan-view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obat-add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obat-view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasien-add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rekam-medis-add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rekam-medis-obat-add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rekam-medis-obat-view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rekam-medis-view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rekam-medis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaksi-add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Obat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaksi-view.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../slim/.htaccess" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../slim/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../slim/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/005ae2c7-b4fa-49c9-9aae-d4608fd35d9d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/005ae2c7-b4fa-49c9-9aae-d4608fd35d9d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataAkses.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DataAkses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bidan-view.php" beforeDir="false" afterPath="$PROJECT_DIR$/bidan-view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obat-view.php" beforeDir="false" afterPath="$PROJECT_DIR$/obat-view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekam-medis-obat-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/rekam-medis-obat-add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekam-medis-obat-view.php" beforeDir="false" afterPath="$PROJECT_DIR$/rekam-medis-obat-view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekam-medis-view.php" beforeDir="false" afterPath="$PROJECT_DIR$/rekam-medis-view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekam-medis.php" beforeDir="false" afterPath="$PROJECT_DIR$/rekam-medis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaksi-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/transaksi-add.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,21 +62,7 @@
         <item name="kesehatan@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="kesehatan: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="detail_transaksi: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kesehatan@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kesehatan: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="obat: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kesehatan@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kesehatan: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="rekam_medis: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="transaksi: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -93,79 +71,56 @@
     <session id="174330046">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="2" />
           <entry key="index" value="1" />
-          <entry key="php" value="40" />
+          <entry key="php" value="59" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="PHP" value="41" />
+          <entry key="PHP" value="60" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="4060" />
+          <entry key="php" value="5495" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4" />
-          <entry key="PHP" value="4056" />
+          <entry key="HTML" value="18" />
+          <entry key="PHP" value="5477" />
           <entry key="PLAIN_TEXT" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rekam-medis-obat-view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/transaksi-add.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DataAkses.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
-              <folding>
-                <element signature="n#addPasien#0;n#DataAkses#0;n#!!top" />
-                <element signature="n#addRekamMedis#0;n#DataAkses#0;n#!!top" />
-                <element signature="n#addDetailTransaksi#0;n#DataAkses#0;n#!!top" />
-                <element signature="n#addTransaksi#0;n#DataAkses#0;n#!!top" />
-                <element signature="n#addBidan#0;n#DataAkses#0;n#!!top" />
-                <element signature="n#addObat#0;n#DataAkses#0;n#!!top" />
-                <element signature="n#ambilObat#0;n#DataAkses#0;n#!!top" />
-                <element signature="n#ambilObatTertentu#0;n#DataAkses#0;n#!!top" />
-                <element signature="n#ambilBidan#0;n#DataAkses#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="400">
+              <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -173,29 +128,31 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/autoload.php" />
         <option value="$PROJECT_DIR$/app/DB.php" />
         <option value="$PROJECT_DIR$/bidan-add.php" />
-        <option value="$PROJECT_DIR$/rekam-medis.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/bidan-view.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/obat-add.php" />
-        <option value="$PROJECT_DIR$/obat-view.php" />
         <option value="$PROJECT_DIR$/pasien-add.php" />
         <option value="$PROJECT_DIR$/rekam-medis-add.php" />
-        <option value="$PROJECT_DIR$/rekam-medis-view.php" />
         <option value="$PROJECT_DIR$/rekam-medis-add-obat.php" />
-        <option value="$PROJECT_DIR$/rekam-medis-obat-add.php" />
+        <option value="$PROJECT_DIR$/app/Obat.php" />
         <option value="$PROJECT_DIR$/rekam-medis-obat-view.php" />
-        <option value="$PROJECT_DIR$/app/DataAkses.php" />
         <option value="$PROJECT_DIR$/transaksi-add.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/app/DataAkses.php" />
+        <option value="$PROJECT_DIR$/transaksi-view.php" />
+        <option value="$PROJECT_DIR$/rekam-medis.php" />
+        <option value="$PROJECT_DIR$/rekam-medis-view.php" />
+        <option value="$PROJECT_DIR$/bidan-view.php" />
+        <option value="$PROJECT_DIR$/rekam-medis-obat-add.php" />
+        <option value="$PROJECT_DIR$/obat-view.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -223,10 +180,10 @@
       <path value="$PROJECT_DIR$/asset/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="511" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="457" />
     <option name="y" value="11" />
-    <option name="width" value="887" />
+    <option name="width" value="941" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -237,17 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="kesehatan" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,10 +201,16 @@
               <item name="kesehatan" type="b2602c69:ProjectViewProjectNode" />
               <item name="kesehatan" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="kesehatan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kesehatan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="kesehatan" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -297,20 +249,23 @@
       <updated>1533205362016</updated>
       <workItem from="1533205363467" duration="8402000" />
       <workItem from="1533218181509" duration="1203000" />
-      <workItem from="1533300761908" duration="12478000" />
+      <workItem from="1533300761908" duration="13557000" />
+      <workItem from="1533369088838" duration="3600000" />
+      <workItem from="1533435084814" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22083000" />
+    <option name="totallyTimeSpent" value="26775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="457" y="11" width="941" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20499243" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27582294" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -322,7 +277,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.21860817" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.37116912" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -360,20 +315,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/005ae2c7-b4fa-49c9-9aae-d4608fd35d9d/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -381,45 +322,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bidan-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="180" column="37" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rekam-medis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obat-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/obat-add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pasien-add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="371" selection-start-line="19" selection-start-column="371" selection-end-line="19" selection-end-column="371" />
         </state>
       </provider>
     </entry>
@@ -437,59 +343,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rekam-medis-obat-add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="26" column="90" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rekam-medis-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="true" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rekam-medis-add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        <state relative-caret-position="248">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rekam-medis-obat-view.php">
+    <entry file="file://$PROJECT_DIR$/app/Obat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/DataAkses.php">
+    <entry file="file://$PROJECT_DIR$/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
-          <folding>
-            <element signature="n#addPasien#0;n#DataAkses#0;n#!!top" />
-            <element signature="n#addRekamMedis#0;n#DataAkses#0;n#!!top" />
-            <element signature="n#addDetailTransaksi#0;n#DataAkses#0;n#!!top" />
-            <element signature="n#addTransaksi#0;n#DataAkses#0;n#!!top" />
-            <element signature="n#addBidan#0;n#DataAkses#0;n#!!top" />
-            <element signature="n#addObat#0;n#DataAkses#0;n#!!top" />
-            <element signature="n#ambilObat#0;n#DataAkses#0;n#!!top" />
-            <element signature="n#ambilObatTertentu#0;n#DataAkses#0;n#!!top" />
-            <element signature="n#ambilBidan#0;n#DataAkses#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/transaksi-add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="340">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rekam-medis-obat-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="19" column="6" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="160" column="55" selection-start-line="160" selection-start-column="55" selection-end-line="160" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bidan-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rekam-medis-obat-add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rekam-medis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaksi-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rekam-medis-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasien-add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DataAkses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obat-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+          <folding>
+            <element signature="e#413#455#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
         </state>
       </provider>
     </entry>

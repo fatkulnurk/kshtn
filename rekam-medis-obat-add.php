@@ -11,13 +11,8 @@ if(isset($_GET["idrm"])){
 ?>
 <section class="content-header">
     <h1>
-        Tambah Bidan
-        <small>Tambah Bidan</small>
+        Tambah Obat Untuk Rekam Medis
     </h1>
-    <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Tambah Bidan</li>
-    </ol>
 </section>
 <section class="content">
     <?php
@@ -33,9 +28,6 @@ if(isset($_GET["idrm"])){
     <div class="row">
         <div class="col-md-12">
             <div class="box box-primary">
-                <div class="box-header with-border">
-                    <h3 class="box-title">Tambah Bidan</h3>
-                </div>
                 <form role="form" method="post" action="">
                     <div class="box-body">
                         <div class="form-group">

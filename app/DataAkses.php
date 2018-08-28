@@ -81,8 +81,15 @@ class DataAkses extends DB
         }
     }
 
-    public function addTransaksi(){
-        $result = $this->conn->query("INSERT INTO  () VALUES ();");
+    public function addTransaksi($rekammedis,$bidan,$biaya,$keterangan){
+
+        $result = $this->conn->query("SELECT sum(total) FROM detail_transaksi WHERE id_rm='$rekammedis'");
+        $a = $result->fetch_assoc();
+        $totalbayarobat = $a['sum(total)'];
+
+        $total = $totalbayarobat + $biaya;
+
+        $result = $this->conn->query("INSERT INTO transaksi (biaya_periksa, total_bayar_obat, total_bayar, keterangan, id_rm, id_bidan) VALUES ('$biaya','$totalbayarobat','$total','$keterangan','$rekammedis','$bidan');");
         if($result){
             return "Berhasil";
         }else{
@@ -110,6 +117,11 @@ class DataAkses extends DB
 
     public function ambilPasien(){
         $result = $this->conn->query("select * from pasien");
+        return $result;
+    }
+
+    public function ambilTransaksi(){
+        $result = $this->conn->query("select * from transaksi");
         return $result;
     }
 

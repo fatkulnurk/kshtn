@@ -2,6 +2,10 @@
 require_once "autoload.php";
 $dataAkses = new DataAkses();
 //$dataAkses->connCheck();
+//$result = $dataAkses->query("SELECT sum(total) FROM detail_transaksi WHERE id_rm=1");
+//$a = $result->fetch_assoc();
+//die($a['sum(total)']);
+// die(var_dump($result->fetch_assoc()));
 
 ?>
 <!DOCTYPE html>
@@ -154,7 +158,7 @@ $dataAkses = new DataAkses();
                     </a>
                     <ul class="treeview-menu">
                         <li><a href="transaksi-add.php"><i class="fa fa-circle-o"></i> Tambah Transaksi</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Rekap Transaksi</a></li>
+                        <li><a href="transaksi-view.php"><i class="fa fa-circle-o"></i> Rekap Transaksi</a></li>
                     </ul>
                 </li>
                 <li class="treeview">

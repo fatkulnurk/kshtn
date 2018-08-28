@@ -4,13 +4,8 @@ require_once "header.php";
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-        Peminjaman Yang Sudah Lunas
-        <small>Daftar Pinjaman Sudah Lunas</small>
+        Daftar Semua Bidan
     </h1>
-    <ol class="breadcrumb">
-        <li><a href="./index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li class="active">Pengajuan Pinjaman</li>
-    </ol>
 </section>
 
 <!-- Main content -->
@@ -18,9 +13,6 @@ require_once "header.php";
     <div class="row">
         <div class="col-xs-12">
             <div class="box">
-                <div class="box-header">
-                    <h3 class="box-title">Peminjaman Sudah Lunas</h3>
-                </div>
                 <!-- /.box-header -->
                 <div class="box-body">
                     <table id="example2" class="table table-bordered table-hover">

@@ -1216,31 +1216,25 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="293" parent="255" name="id_transaksi_det">
+    <column id="293" parent="255" name="keterangan">
       <Position>5</Position>
-      <DataType>int(5)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="294" parent="255" name="keterangan">
-      <Position>6</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="255" name="id_rm">
+    <column id="294" parent="255" name="id_rm">
+      <Position>6</Position>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="295" parent="255" name="id_bidan">
       <Position>7</Position>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="255" name="id_bidan">
-      <Position>8</Position>
-      <DataType>int(5)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="297" parent="255" name="PRIMARY">
+    <key id="296" parent="255" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_transaksi</ColNames>
       <Primary>1</Primary>
